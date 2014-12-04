@@ -209,7 +209,7 @@ header {
 
 }
 
-.content-1 img {
+.content-1 img, {
 	/*width: 15.873015873%;*/ /*100/630*/
 	width: 100px;
 }
@@ -347,7 +347,6 @@ header {
 
 .content-2{
 	background: black;
-	
 	border: 2px solid black;
 	margin-top: 1em;
 }
@@ -365,6 +364,10 @@ header {
 	font-style: italic;
 	padding-bottom: .8em;
 	padding-left: .4em;
+}
+
+.content-2 img {
+	width: 100%;
 }
 
 .column-2 {
