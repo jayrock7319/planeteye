@@ -190,6 +190,7 @@ footer {
 
 .profile-content {
 	margin-top: 1em;
+	padding-left: 10px;
 }
 
 .profile-content img {
@@ -379,6 +380,10 @@ footer p {
 }
 .padding-top-none{
 	padding-top: 0 !important;
+}
+
+.padding-left-10 {
+	padding-left: 10px;
 }
 
 .padding-top {
