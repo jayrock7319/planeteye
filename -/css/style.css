@@ -64,8 +64,9 @@ h1 {
 	font-family: "serifia black"; 
 }
 
-h2 {
-	font-size: 13px;
+h2,
+.color-change-2 {
+	font-size: 12px !important;
 	color:	#ffcb08;
 }
 
@@ -116,9 +117,7 @@ img {
 	border-left: none;
 }
 
-.border-left-black {
-	border-left: 1px solid #000;
-}
+
 a {
 	font-size: 14px;
 	color: #ff7302;
@@ -130,12 +129,16 @@ a {
 	margin-bottom: 2em;
 }
 
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
 .margin-top {
 	margin-top: 10px;
 }
 
 .margin-left {
-	margin-left: 8px;
+	margin-left: 3px;
 }
 /*.column-1 {
 	width: 8.3333333333%;
@@ -323,7 +326,6 @@ footer p {
 .no-padding-left {
 	padding-left: 0px !important;
 }
-.travel-packs-containing-this-photo {}
 
 .grey-text-1 {
 	color: #949494;
@@ -377,6 +379,10 @@ footer p {
 }
 .padding-top-none{
 	padding-top: 0 !important;
+}
+
+.padding-top {
+	padding-top: 9px;
 }
 
 .img-text {
@@ -591,6 +597,10 @@ footer p {
 	color: black;
 }
 
+.no-padding {
+	padding: 0 !important;
+}
+
 .background {
 	background: black;
 }
@@ -663,7 +673,7 @@ header {
 }
 @media screen and (min-width: 400px) {
 	.primary-search h2{
-		font-size: 20px;
+		font-size: 18px !important;
 	}
 
 	.width-40 {
@@ -787,7 +797,8 @@ header {
 	.nav-bar {
 		background: #ffcb08;
 		border-top: 1px solid #ffffff;
-		padding-top: 5px;
+		padding-top: 10px;
+		padding-bottom: 5px;
 	}
 	
 	.font-change {
@@ -806,7 +817,7 @@ header {
 		background: url(/-/img/right-frame.png) right 0 bottom 0 no-repeat;
 		text-align: center;
 		display: block;
-		padding: 10px 5px 0;
+		padding: 2px 5px 0;
 		height: 18px;
 	}
 
@@ -852,15 +863,30 @@ header {
 @media screen and (min-width: 500px) {
 	.profile-content img {
 		max-width: 115px;
+		max-height: 100px;
 	}
 	.padding-margin-5 {
 		padding: 0 5px;
 		margin: 0 5px;
 	}
+
+	.people-tracking img {
+		max-width: 70px;
+		margin-right: 7px;
+		margin-top: 2px; 
+	}
+
+	.people-tracking .no-margin {
+		margin-top: .5px !important;
+	}
 	.inline-2 {
 		display: inline-block;
 		padding:0 7px;
 	}	
+
+	.border-left-black {
+		border-left: 1px solid #000;
+	}
 
 	.img-text img {
 		margin-right: 13px;
@@ -874,8 +900,8 @@ header {
 		border-bottom: none;
 	}
 	.col50-50{
-		width: 48%;
-		margin-right:2%;
+		width: 48.5%;
+		margin-right:1.5%;
 		float: left;	
 	}
 	.col40{
@@ -1085,11 +1111,9 @@ header {
 }
 
 
-
 .img-text {
 	margin-top: 1em;
 	padding-bottom: 1em;
-	border-bottom: 2px solid #eaeff0;
 }
 
 .img-text h3, 
