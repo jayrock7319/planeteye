@@ -147,10 +147,17 @@ a {
 	margin-bottom: 2em;
 }
 
+.margin-15 {
+	margin-bottom: 15px !important;
+	margin-top: 20px;
+}
+
 .margin-bottom {
 	margin-bottom: 10px;
 }
-
+.margin-bottom-none {
+	margin-bottom: 0;
+}
 .margin-top {
 	margin-top: 10px;
 }
@@ -258,6 +265,10 @@ footer p {
  
 .uppercase {
 	text-transform: uppercase;
+}
+
+.margin-5 {
+	margin-bottom: 5px;
 }
 
 .hide-text {
@@ -378,10 +389,10 @@ footer p {
 .grey-text-6 {
 	color: #bdbdbd;
 	font-size: 12px;
-	float: left;
+	float: left; 
 	margin-right: 7px;
 	font-family: "Trebuchet MS";
-	margin-top: 2px; 
+	margin-top: 2px;
 }
 .grey-text-7 {
 	color: #cecece;
@@ -429,8 +440,13 @@ footer p {
 	float: left;
 }
 .border-bottom-1 {
-	padding: 9px 0 9px 8px;
+	padding: 7px 0 9px 7px;
 	border-bottom: 1px solid #d6e0e2;
+}
+
+.border-top-1 {
+	padding: 9px 0 0 8px;
+	border-top: 1px solid #d6e0e2;
 }
 .border-bottom-1 p {
 	line-height: 14px;
@@ -543,6 +559,10 @@ footer p {
 	color: black;
 }
 
+.color-25 {
+	color: #7a7a7a;
+}
+
 .people-tracking img {
 	max-width: 70px;
 	margin-right: 7px;
@@ -562,6 +582,13 @@ footer p {
 	line-height: 10px;
 }
 
+.font-change-11-2 {
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+
 .font-change-12 {
 	font-size: 12px !important;
 	color: black;
@@ -570,6 +597,11 @@ footer p {
 
 .font-change-13 {
 	font-size: 13px !important;
+}
+
+.font-change-14 {
+	font-size: 14px;
+	font-family: "Trebuchet MS";
 }
 
 .font-1 {
@@ -875,7 +907,6 @@ header {
 		background: #ffcb08;
 		border-top: 1px solid #ffffff;
 		padding-top: 10px;
-		padding-bottom: 5px;
 	}
 	
 	.font-change {
