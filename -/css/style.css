@@ -48,6 +48,14 @@ body {
 	overflow-y: scroll;
 }
 
+.img-checkbox {
+	padding-top: 20px !important;
+}
+
+.background-2 {
+	background: #f3f4f6;
+}
+
 .img-text-1 {
 	padding-top: 12px;
 }
@@ -56,6 +64,11 @@ body {
 	width: 100%;
 	max-width: 230px;
 
+}
+
+.img-text-1 p {
+	line-height: 21px;
+	font-size: 14px;
 }
 
 .nav-bar h2,
@@ -67,7 +80,6 @@ p {
 	margin-bottom: 10px;
 	font-family: "Trebuchet MS";
 	font-size: 13px;
-	line-height: 14px;
 }
 
 
@@ -107,6 +119,12 @@ img {
 	max-width: 170px;
 	padding-left: 10px;
 }
+.max-70 {
+	max-width: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .border-black {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -152,11 +170,33 @@ a {
 	margin-top: 20px;
 }
 
+.line-height-25 {
+	line-height: 25px !important;
+}
+
+.input-2 {
+	width: 100%;
+	padding: 10px;
+	padding-bottom: 110px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #c3c3c3;
+	border-top: 1px solid black;
+}
+
+.btn-save {
+	background: url(/-/img/save-button-background.png);
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 20px;
+	background-size: 100%;
+	border: none;
+	padding-bottom: 3px;
+}
 .margin-bottom {
 	margin-bottom: 10px;
 }
 .margin-bottom-none {
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
 .margin-top {
 	margin-top: 10px;
@@ -427,6 +467,10 @@ footer p {
 	padding-left: 10px;
 }
 
+.margin-right-10 {
+	margin-right: 10px;
+}
+
 .padding-top {
 	padding-top: 9px;
 }
@@ -563,6 +607,18 @@ footer p {
 	color: #7a7a7a;
 }
 
+.color-26 {
+	color: #727272;
+	font-size: 14px;
+}
+
+.color-27 {
+	color: #7a7b7c;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+
 .people-tracking img {
 	max-width: 70px;
 	margin-right: 7px;
@@ -663,6 +719,10 @@ footer p {
 	color: black;
 }
 
+.border-left-black-always {
+	border-left: 1px solid #c9a006;
+}
+
 
 .inline-block-1 {
 	display: inline-block;
@@ -692,7 +752,6 @@ footer p {
 	background: #d6e8f5;
 	padding-left: 9px;
 	border-bottom: 1px solid #c9d9e6;
-	margin-bottom: 10px;
 }
 
 .selections-header li {
@@ -700,10 +759,12 @@ footer p {
 }
 
 .border-top-black {
-	border-top: 1px solid black
+	border-top: 1px solid black;
 }
  
-
+.border-top-none-2 {
+	width: 97%;
+}
 
 .selections-header a {
 	font-size: 11px;
@@ -748,6 +809,17 @@ header {
 	}
 
 }
+
+@media screen and (min-width: 286px) {
+	.border-top-none-2 {
+		border-top: none !important;
+		width: 110px;
+		border-left: 1px solid black;
+	}
+
+
+}
+
 @media screen and (min-width: 400px) {
 	.primary-search h2{
 		font-size: 18px !important;
@@ -756,6 +828,10 @@ header {
 		max-width: 70px;
 		margin-right: 7px;
 		margin-top: 2px; 
+	}
+	
+	.input-2 {
+		width: 330px;
 	}
 
 	.float-right-2{
@@ -786,14 +862,14 @@ header {
 		margin: 0 5px;
 	}
 	.width-40 {
-		width: 40%;
+		width: 98%;
 	}
 
 	.border-left-none-399 {
 		border-left: 1px solid #000;
 	}
 	.padding-8px {
-		padding: 8px;
+		padding: 5px;
 	}
 
 	.center {
@@ -806,9 +882,6 @@ header {
 		margin-top: 5px;
 	}
 
-	.border-top-black {
-	border-top: none;
-	}
 
 	.absolute-2 {
 		position: absolute;
@@ -831,6 +904,14 @@ header {
 
 }
 
+@media screen and (min-width: 489px) {
+	.border-top-black {
+	border-top: none;
+	}
+	.width-40 {
+		width: 38.7%;
+	}
+}
 	.primary-search h2 {
 		margin-left: 5px;
 	}
@@ -1142,6 +1223,9 @@ header {
 	padding-left: 9px;
 	padding-bottom: 8px;
 	position: relative;
+	font-family: georgia,"times new roman", serif;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 
@@ -1242,6 +1326,11 @@ header {
 	margin-top: .4em;
 	color: #707070;
 	font-style: italic;
+}
+
+.red-link-2 {
+	color: #ef4723;
+	text-transform: none !important;
 }
 
 .red {
