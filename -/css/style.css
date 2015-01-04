@@ -342,10 +342,6 @@ footer p {
 }
 
 
-.photos-you-might-like a{
-	margin-bottom: none;
-}
-
 .margin-1 {
 	margin-bottom: 1em;
 }
@@ -856,7 +852,6 @@ header {
 
 	.photos-you-might-like img {
 		width: 90%;
-		margin-bottom: none;
 	}
 
 	.border-left-black {
