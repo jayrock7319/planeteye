@@ -144,8 +144,23 @@ img {
 }
 
 .font-change-16 {
-	font-size: 16px;
+	font-size: 16px !important;
 }
+
+.font-change-16-2 {
+	font-size: 16px !important;
+	font-family: "Trebuchet MS";
+}
+
+.font-change-16-3 {
+	font-size: 16px !important;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "serifa";
+	line-height: 18px;
+
+}
+
 .font-change-17 {
 	font-size: 17px !important;
 	color: black;
@@ -181,6 +196,11 @@ a {
 	margin-bottom: 15px !important;
 	margin-top: 20px;
 }
+
+.margin-15-2 {
+	margin-bottom: 15px !important;
+}
+
 
 .line-height-25 {
 	line-height: 25px !important;
@@ -320,11 +340,17 @@ footer p {
 }
  
 .uppercase {
-	text-transform: uppercase;
+	text-transform: uppercase !important;
 }
 
 .margin-5 {
 	margin-bottom: 5px;
+}
+
+.font-change-26 {
+	font-size: 26px !important;
+	font-family: "serifa";
+	font-weight: bold;
 }
 
 .hide-text {
@@ -358,6 +384,9 @@ footer p {
 	margin-top: -5px;
 }
 
+.black-header ul {
+	margin-top: -5px;
+}
 
 .margin-1 {
 	margin-bottom: 1em;
@@ -490,6 +519,7 @@ footer p {
 .margin-right-10 {
 	margin-right: 10px;
 }
+
 
 .padding-top {
 	padding-top: 9px;
@@ -666,6 +696,27 @@ footer p {
 }
 
 
+
+.color-27 {
+	color: #7a7b7c;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.color-28 {
+	font-size: 12px !important;
+	color: #d5d5d5;
+}
+
+.color-29 {
+	color: #c4c4c4 !important;
+}
+
+.color-30 {
+	color: #db5105 !important;
+	font-weight: normal;
+}
+
 .style-1 {
 	font-size: 14px !important;
 	line-height: 18px;
@@ -711,22 +762,6 @@ footer p {
 }
 
 
-.color-27 {
-	color: #7a7b7c;
-	font-size: 12px;
-	margin-top: 30px;
-}
-
-.color-28 {
-	font-size: 12px !important;
-	color: #d5d5d5;
-}
-
-.color-29 {
-	color: #c4c4c4 !important;
-}
-
-
 .people-tracking img {
 	max-width: 70px;
 	margin-right: 7px;
@@ -763,6 +798,11 @@ footer p {
 	font-size: 12px !important;
 }
 
+.font-change-12-3 {
+	font-size: 12px !important;
+	line-height: 16px;
+}
+
 .font-change-13 {
 	font-size: 13px !important;
 }
@@ -782,6 +822,17 @@ footer p {
 	margin-left: 5px;
 	margin-top: 3px
 }
+
+.header-padding {
+	padding-left: 25px;
+	margin-bottom: -10px;
+}
+
+.header-padding-2 {
+	padding-left: 30px;
+	margin-bottom: -10px;
+}
+
 
 .font-change-14-2 {
 	font-size: 14px !important;
@@ -811,6 +862,10 @@ footer p {
 .font-3 {
 	font-family: "Serifa";
   	font-size: 14px;
+}
+
+.border-bottom-1 .border-right-1{
+	  	color: #474747 !important;
 }
 
 .font-4 {
@@ -866,10 +921,25 @@ footer p {
 	border-left: 1px solid black;
 }
 
+.max-115{
+	padding: 0 0px 15px 0;
+}
+
 
 .inline-block-1 {
 	display: inline-block;
 }
+
+.travel-pack-a-3 {
+	background: yellow;
+	background-image: url(/-/img/travel-pack-add.jpg);
+	height: 23px;
+	width: 22px;
+	position: absolute;
+	top: 4px;
+	left: 3px;
+}
+
 
 .no-cap {
 	text-transform: none;
@@ -975,6 +1045,18 @@ header {
 		float: left;
 	}
 
+	.padding-right-20 {
+		padding-right: 20px;
+	}
+
+	.max-115{
+		max-width: 115px;
+		padding: 0 15px 0px 0;
+		float: left;
+	}
+
+
+
 	.width-80 {
 		width: 80%;
 		float: left;
@@ -1056,11 +1138,6 @@ header {
 		margin-right: 15px;	
 		font-size: 13px;
 		margin-top: 5px;
-	}
-
-	.header-padding {
-		padding-left: 30px;
-		margin-bottom: -10px;
 	}
 
 	.absolute-2 {
@@ -1432,9 +1509,9 @@ header {
 .black-header {
 	background: black;
 	color: white;
-	padding-top: 11px;
+	padding-top: 8px;
 	padding-left: 9px;
-	padding-bottom: 8px;
+	padding-bottom: 5px;
 	position: relative;
 	font-family: georgia,"times new roman", serif;
 	font-size: 16px;
@@ -1545,6 +1622,11 @@ header {
 	font-size: 18px !important;
 }
 
+.font-change-18-2 {
+	font-size: 18px !important;
+	font-family: "Trebuchet MS";
+}
+
 .font-change-30 {
 	font-size: 30px !important;
 	color: #ffffff;
@@ -1582,6 +1664,10 @@ header {
 
 .img-text img {
 	margin-right: 1em;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
 }
 
 .travel-pack-grey {
