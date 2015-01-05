@@ -182,6 +182,10 @@ a {
 	line-height: 25px !important;
 }
 
+.border-bottom-white {
+	border-bottom: 1px solid #ffffff;
+}
+
 .input-2 {
 	width: 100%;
 	padding: 10px;
@@ -448,7 +452,6 @@ footer p {
 	text-decoration: underline;
 }
 .float-bold {
-	float: left;
 	margin-right: 22px;
 	font-weight: bold;
 }
@@ -472,6 +475,9 @@ footer p {
 	padding-left: 10px;
 }
 
+.height-15 {
+	height: 15px;
+}
 .padding-bottom-10 {
 	padding-bottom: 10px;
 }
@@ -517,6 +523,10 @@ footer p {
 /*.max-270 {
 	max-width: 270px;
 }*/
+
+.style-2 {
+	margin-left: 5px;
+}
 
 .padding-10-2 {
 	padding: 10px;
@@ -597,6 +607,11 @@ footer p {
 .color-13 {
 	background: #00b6cd;
 }
+
+.color-13-2 {
+	color: #00b6cd !important;
+}
+
 .color-14 {
 	background: #9d9d9d;
 }
@@ -646,6 +661,39 @@ footer p {
 	font-size: 14px;
 }
 
+
+.style-1 {
+	font-size: 14px !important;
+	line-height: 18px;
+	color: #ffffff;
+	background: #428704;
+	font-family: "Serifa";
+	padding: 4px 4px 0;
+	text-transform: uppercase;
+	margin-left: 2px;
+}
+
+.style-3 {
+	font-size: 14px !important;
+	line-height: 18px;
+	color: #ffffff;
+	background: #0090a3;
+	font-family: "Serifa";
+	padding: 4px 4px 0;
+	text-transform: uppercase;
+	margin-left: 2px;
+}
+
+.style-4 {
+	font-size: 14px !important;
+	line-height: 18px;
+	color: black;
+	font-family: "Serifa";
+	padding: 4px 4px 0;
+	text-transform: uppercase;
+	margin-left: 2px;
+}
+
 .color-27 {
 	color: #7a7b7c;
 	font-size: 12px;
@@ -656,6 +704,11 @@ footer p {
 	font-size: 12px !important;
 	color: #d5d5d5;
 }
+
+.color-29 {
+	color: #c4c4c4 !important;
+}
+
 
 .people-tracking img {
 	max-width: 70px;
@@ -902,7 +955,22 @@ header {
 		margin-right: 7px;
 		margin-top: 2px; 
 	}
-	
+	.float-bold {
+		float: left;
+	}
+
+	.scroll .col-small {
+		float: right;
+	}
+
+	.scroll .col-big{
+		width: 66.6666666%;
+		float: left;
+	}
+	.scroll .col-small{
+		width: 33.3333333%;
+		float: left;	
+	}
 
 	.contain-1 {
 		float: left;
@@ -1289,6 +1357,23 @@ header {
 	}
 }
 
+
+
+@media screen and (min-width: 869px) {
+	
+	.float-bold {
+		float: none;
+	}
+
+}
+
+@media screen and (min-width: 955px) {
+	
+	.float-bold {
+		float: left;
+	}
+
+}	
 .nav-bar {
 	background: #ffcb08;
 	border-top: 1px solid #ffffff;
